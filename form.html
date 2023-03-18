@@ -1,0 +1,103 @@
+<html>
+<head>
+<title>form
+</title>
+<style>
+div{content:block;
+text-align:center;
+background-color:yellow;}
+table{border:1px solid black;
+border-collapse:collapse;
+width:60%;}
+</style>
+</head>
+<body>
+<table><tr><th>
+<div>
+<form>
+<H1 font style="font-family:algerian;">
+<CENTER>
+BIO-DATA OF STUDENTS
+</CENTER>
+</H1>
+<label for="a">NAME:</label><br>
+<input type="text" id="a" name="a" size="20" autofocus required><br><BR>
+ROLL NO.:<BR>
+<input type="number" name="roll number" required><br><BR>
+AADHAR NO.:<BR>
+<input type="number" id="aadhar number" name="aadhar number" placeholder="1234-5678-4321" pattern="[0-9]{4}- [0-9]{4}- [0-9]{4}"><br><BR>
+GENDER:<BR>
+<input type="radio" id="gender" name="gender" value="male"/>MALE
+<input type="radio" id="gender" name="gender" value="female"/>FEMALE<BR><BR>
+DEPARTMENT:<BR>
+<input type="radio" id="dep" name="dep" value="cse"/>CSE
+<input type="radio" id="dep" name="dep" value="ece"/>ECE
+<input type="radio" id="dep" name="dep" value="eee"/>EEE
+<input type="radio" id="dep" name="dep" value="civil"/>CIVIL<br><br>
+QUOTA:<BR>
+<input type="radio" id="dep" name="quota" value="man"/>MANAGEMENT
+<input type="radio" id="dep" name="quota" value="gov"/>GOVERNMENT<BR><BR>
+
+AGE:<BR>
+<input type="password" id="age" name="age"/><br><br>
+
+ADDRESS:<BR>
+<textarea rows="5" cols="20" name="address"></textarea><br><br>
+MAIL ID:<BR>
+<input type="email" id="email" name="email"/><br><br>
+SPORTS:<BR>
+<input type="checkbox" id="volleyball" name="volleyball" value="volleyball"/>
+<label for="volleyball">Volleyball</label>
+<input type="checkbox" id="handball" name="handball" value="handball"/>
+<label for="handball">Handball</label>
+<input type="checkbox" id="basketball" name="basketball" value="basketball"/>
+<label for="basketball">Basketball</label>
+<input type="checkbox" id="football" name="football" value="football"/>
+<label for="football">Football</label><br><br>
+HOBBIES:<BR>
+<input type="checkbox" id="a" name="a" value="a"/>
+<label for="a">SINGING</label>
+<input type="checkbox" id="b" name="b" value="b"/>
+<label for="b">DANCING</label>
+<input type="checkbox" id="c" name="c" value="c"/>
+<label for="c">PLAYING</label>
+<input type="checkbox" id="d" name="d" value="d"/>
+<label for="d">DRAWING</label><br><br>
+SKILLS:<BR>
+<input type="checkbox" id="a" name="a" value="a"/>
+<label for="a">C</label>
+<input type="checkbox" id="b" name="b" value="b"/>
+<label for="b">C++</label>
+<input type="checkbox" id="c" name="c" value="c"/>
+<label for="c">JAVA SCRIPT</label>
+<input type="checkbox" id="d" name="d" value="d"/>
+<label for="d">LABVIEW</label><br><br>
+FAV. SUBJECTS:<BR>
+<input type="checkbox" id="a" name="a" value="a"/>
+<label for="a">MATHS</label>
+<input type="checkbox" id="b" name="b" value="b"/>
+<label for="b">ENGLISH</label>
+<input type="checkbox" id="c" name="c" value="c"/>
+<label for="c">SCIENCE</label>
+<input type="checkbox" id="d" name="d" value="d"/>
+<label for="d">TAMIL</label><br><br>
+
+DEGREE:<BR><input list="DEGREE">
+<datalist id="DEGREE">
+<option value="UG">
+<option value="PG">
+</datalist><br><br>
+
+<LABEL FOR="datamax">ENTER YOUR DOB:</LABEL>
+<input type="DATE" id="a" name="a" MAX="01-06-2000"><br><BR>
+PHONE NO.:<BR>
+<input type="number" id="phone number" name="phone number" placeholder="12345-67890" pattern="[0-9]{5}- [0-9]{5}" ><br><BR>
+VOTER ID:<BR>
+<input type="number" id="vi number" name="vi number" placeholder="12345-67890" pattern="[0-9]{5}- [0-9]{5}"><br><BR>
+PAN CARD:<BR>
+<input type="number" id="pc number" name="pc number" placeholder="abcdef-1234"><br><BR>
+</form>
+</div>
+</table>
+</body>
+</html>

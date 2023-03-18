@@ -1,0 +1,12 @@
+body{
+                background-image:url(mbg.jfif) ;
+                background-repeat: no-repeat;
+                background-size: 1550px 1000px;
+            }
+p{
+			font-size:19px;}
+		BUTTON{font-size: 30px; 
+TEXT-ALIGN:CENTER;}
+h3{
+                color: red;
+            }
